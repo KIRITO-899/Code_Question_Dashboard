@@ -9,7 +9,7 @@ const useQuestions = () => {
     const fetchQuestions = async () => {
       try {
         setLoading(true);
-        const response = await fetch('http://localhost:5000/questions');
+        const response = await fetch('http://localhost:3001/questions');
         if (!response.ok) {
           throw new Error('Failed to fetch questions');
         }
