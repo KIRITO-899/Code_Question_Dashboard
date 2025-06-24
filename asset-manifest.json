@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Code_Question_Dashboard/static/css/main.43337b7b.css",
+    "main.js": "/Code_Question_Dashboard/static/js/main.6b1e8a55.js",
+    "index.html": "/Code_Question_Dashboard/index.html",
+    "main.43337b7b.css.map": "/Code_Question_Dashboard/static/css/main.43337b7b.css.map",
+    "main.6b1e8a55.js.map": "/Code_Question_Dashboard/static/js/main.6b1e8a55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43337b7b.css",
+    "static/js/main.6b1e8a55.js"
+  ]
+}
