@@ -10,6 +10,7 @@
     "server": "json-server --watch problems.json --port 5000",
     "dev": "concurrently \"npm run server\" \"npm start\""
   },
+  "homepage": ".",
   "keywords": [],
   "author": "",
   "license": "ISC",
