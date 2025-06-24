@@ -8,9 +8,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch problems.json --port 5000",
-    "dev": "concurrently \"npm run server\" \"npm start\""
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": ".",
+  "homepage": "https://KIRITO-899.github.io/Code_Question_Dashboard",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -35,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^9.2.0"
+    "concurrently": "^9.2.0",
+    "gh-pages": "^6.3.0"
   }
 }
